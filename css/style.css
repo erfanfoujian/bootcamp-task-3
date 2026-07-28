@@ -296,7 +296,8 @@ textarea{
 }
 .holder input{
     width: 1.5rem;
-    height: 1.5rem;   
+    height: 1.5rem;
+    accent-color: var(--color-primary);
 }
 .tipaks--label,.post--label{
     font-size: 1.4rem;
