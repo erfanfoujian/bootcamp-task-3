@@ -480,6 +480,10 @@ margin-bottom: 3rem;
     align-items: center;
     gap: 1rem;
 }
+.content__pay>span{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 .zibal{
     width: 4rem;
     height: 4rem;
@@ -558,5 +562,19 @@ img:hover{
 }
 
 @media screen and (min-width: 1024px){
-   
+   .image--holder{
+    width: 10rem;
+    height: 10rem;
+   }
+   .image--product{
+    width: 8rem;
+   }
+   .product__price{
+    gap: 1rem;
+   }
+   .product--icon--span,
+   .span--count,
+   .trash {
+    padding: 2rem;
+   }
 }
